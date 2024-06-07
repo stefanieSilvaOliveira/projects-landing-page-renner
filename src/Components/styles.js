@@ -6,11 +6,16 @@ export const Header = styled.header`
         width: 100vw;
         height: 80px;
         background-color: #F8F9FA;
+        
 
         img{
                 width: 120px;
                 height: 120px;
                 cursor: pointer;
+        }
+
+        i{
+          margin-left: 10px;
         }
 
   @media (max-width: 768px) {
